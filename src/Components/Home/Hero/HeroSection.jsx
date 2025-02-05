@@ -7,7 +7,7 @@ import { Model } from "../../Model/Model";
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
-  const [tshirtColor, setTshirtColor] = useState("red");
+  const [tshirtColor, setTshirtColor] = useState("white");
 
   const changeColor = (color) => {
     setTshirtColor(color);
