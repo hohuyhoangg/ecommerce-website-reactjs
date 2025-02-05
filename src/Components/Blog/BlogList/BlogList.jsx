@@ -47,9 +47,7 @@ const BlogList = () => {
                 </div>
                 <div className="blogPostContentDescription">
                   <p>
-                    Midst one brought greater also morning green saying had
-                    good. Open stars day let over gathered, grass face one every
-                    light of under.
+                    There are many things to take care of yourself, of which clothes are indispensable. Clothes are not only a way to protect the body from the environment but also a way to express your personality and style. So, let's experience clothes with many different styles.
                   </p>
                 </div>
                 <div className="blogPostContentReadMore">
