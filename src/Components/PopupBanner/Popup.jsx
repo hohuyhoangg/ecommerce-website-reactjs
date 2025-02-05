@@ -4,7 +4,7 @@ import "./Popup.css";
 import popupImg from "../../Assets/newsletter-popup.jpg";
 
 const Popup = () => {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
 
   const handleClose = () => {

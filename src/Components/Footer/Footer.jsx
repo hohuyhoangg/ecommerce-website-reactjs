@@ -146,7 +146,7 @@ const Footer = () => {
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              TrueTest
+              Team Multi Brand Store
             </a>{" "}
             with ❤️
           </p>
