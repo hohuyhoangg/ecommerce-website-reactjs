@@ -11,7 +11,7 @@ const DealTimer = () => {
   };
 
   const [timeLeft, setTimeLeft] = useState({
-    days: 31,
+    days: 1,
     hours: 29,
     minutes: 57,
     seconds: 17,
