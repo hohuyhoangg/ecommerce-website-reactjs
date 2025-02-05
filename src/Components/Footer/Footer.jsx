@@ -34,11 +34,11 @@ const Footer = () => {
               <img src={logo} alt="" Z />
             </div>
 
-            <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
+            <p>Ho Chi Minh City</p>
 
             <div className="footer_address">
-              <strong> sale@uomo.com </strong>
-              <strong> +1 246-345-0695 </strong>
+              <strong> sale@team.com </strong>
+              <strong> +84 246-345-0695 </strong>
             </div>
 
             <div className="social_links">
@@ -139,14 +139,14 @@ const Footer = () => {
         </div>
         <div className="footer_bottom">
           <p>
-            © {getCurrentYear()} Uomo. All Rights Reserved | Made By{" "}
+            © {getCurrentYear()} Team. All Rights Reserved | Made By{" "}
             <a
-              href="https://github.com/shakti177"
+              href="https://katalon.com"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              Shakti Tamrakar
+              TrueTest
             </a>{" "}
             with ❤️
           </p>

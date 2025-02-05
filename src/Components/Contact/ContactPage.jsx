@@ -22,39 +22,39 @@ const ContactPage = () => {
         <h2>Contact Us</h2>
         <div className="contactMap">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49206.16593395236!2d2.5776979486328124!3d39.57346430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793280de39c05%3A0x85d5f5ea839d6c2a!2sUOMO!5e0!3m2!1sen!2sin!4v1708798894132!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.251541797!2d106.69522764999999!3d10.754792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City!5e0!3m2!1sen!2s!4v1738659606004!5m2!1sen!2s"
             width="800"
             height="600"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="uomomap"
+            title="teammap"
           ></iframe>
         </div>
         <div className="contactInfo">
           <div className="contactAddress">
             <div className="address">
-              <h3>Store in London</h3>
+              <h3>Store in Ho Chi Minh</h3>
               <p>
-                1418 River Drive, Suite 35 Cottonhall, CA 9622
-                <br /> United Kingdom
+                123, Nguyen Dinh Chieu, District 3
+                <br /> Viet Nam
               </p>
               <p>
-                admin@dummymail.com
+                admin@team.com
                 <br />
-                +44 20 7123 4567
+                +84 123 456 789
               </p>
             </div>
             <div className="address">
-              <h3>Store in India</h3>
+              <h3>Store in Ha Noi</h3>
               <p>
-                A-791, A-791, Bandra Reclamation Rd, Mumbai
-                <br /> Maharashtra
+                456, Nguyen Trai, Thanh Xuan
+                <br /> Viet Nam
               </p>
               <p>
-                contact@dummymail.com
+                contact@team.com
                 <br />
-                +44 20 7123 4567
+                +84 987 654 321
               </p>
             </div>
           </div>
