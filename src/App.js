@@ -22,6 +22,8 @@ import Popup from "./Components/PopupBanner/Popup";
 import Custom from "../src/Pages/Custom";
 import { Toaster } from "react-hot-toast";
 import RegisterUserStep1 from "../src/Pages/Custom/RegisterUserStep1";
+import RegisterUserStep2 from "../src/Pages/Custom/RegisterUserStep2";
+import RegisterUserStep3 from "../src/Pages/Custom/RegisterUserStep3";
 
 const App = () => {
   return (
@@ -45,6 +47,9 @@ const App = () => {
           <Route path="/custom" element={<Custom />} />
           {/* Register User */}
           <Route path="/register-user-step-1" element={<RegisterUserStep1 />} />
+          <Route path="/register-user-step-private-information" element={<RegisterUserStep2 />} />
+          <Route path="/register-user-step-custom-information" element={<RegisterUserStep3 />} />
+          {/* Login Form */}
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
