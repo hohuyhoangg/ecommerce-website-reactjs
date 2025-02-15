@@ -22,6 +22,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
 import Badge from "@mui/material/Badge";
+import {Autocomplete, TextField} from "@mui/material";
 
 const Navbar = () => {
   const cart = useSelector((state) => state.cart);
@@ -75,6 +76,11 @@ const Navbar = () => {
               <li>
                 <Link to="/contact" onClick={scrollToTop}>
                   CONTACT
+                </Link>
+              </li>
+              <li>
+                <Link to="/custom" onClick={scrollToTop}>
+                  CUSTOM
                 </Link>
               </li>
             </ul>

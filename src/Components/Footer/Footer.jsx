@@ -31,9 +31,8 @@ const Footer = () => {
         <div className="footer__container">
           <div className="footer_left">
             <div className="footer_logo_container">
-              <img src={logo} alt="" Z />
+              <img src={logo} alt="logo" />
             </div>
-
             <p>Ho Chi Minh City</p>
 
             <div className="footer_address">

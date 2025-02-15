@@ -1,0 +1,6 @@
+.customSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0 160px;
+    margin-top: 20px;
+}

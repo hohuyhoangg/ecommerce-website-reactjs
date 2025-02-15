@@ -19,7 +19,9 @@ import BlogDetails from "./Components/Blog/BlogDetails/BlogDetails";
 import TermsConditions from "./Pages/TermsConditions";
 import ShoppingCart from "./Components/ShoppingCart/ShoppingCart";
 import Popup from "./Components/PopupBanner/Popup";
+import Custom from "../src/Pages/Custom";
 import { Toaster } from "react-hot-toast";
+import RegisterUserStep1 from "../src/Pages/Custom/RegisterUserStep1";
 
 const App = () => {
   return (
@@ -40,6 +42,9 @@ const App = () => {
           <Route path="/BlogDetails" element={<BlogDetails />} />
           <Route path="/terms" element={<TermsConditions />} />
           <Route path="/cart" element={<ShoppingCart />} />
+          <Route path="/custom" element={<Custom />} />
+          {/* Register User */}
+          <Route path="/register-user-step-1" element={<RegisterUserStep1 />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
