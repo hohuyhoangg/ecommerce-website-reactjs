@@ -17,7 +17,14 @@ const CustomPage = () => {
           >
             Follow Register User
           </Button>
-          <Button sx={{ width: '200px' }} variant="contained" color="primary" disabled>Follow </Button>
+          <Button
+            sx={{ width: '200px' }}
+            variant="contained"
+            color="primary"
+            href="/custom-login"
+          >
+            Follow Login Form
+          </Button>
           <Button sx={{ width: '200px' }} variant="contained" color="primary" disabled>Follow </Button>
           <Button sx={{ width: '200px' }} variant="contained" color="primary" disabled>Follow </Button>
         </Stack>

@@ -24,6 +24,8 @@ import { Toaster } from "react-hot-toast";
 import RegisterUserStep1 from "../src/Pages/Custom/RegisterUserStep1";
 import RegisterUserStep2 from "../src/Pages/Custom/RegisterUserStep2";
 import RegisterUserStep3 from "../src/Pages/Custom/RegisterUserStep3";
+import LoginForm from "../src/Pages/Custom/LoginForm";
+import LoginFormOTP from "../src/Pages/Custom/LoginFormOtp";
 
 const App = () => {
   return (
@@ -50,6 +52,8 @@ const App = () => {
           <Route path="/register-user-step-private-information" element={<RegisterUserStep2 />} />
           <Route path="/register-user-step-custom-information" element={<RegisterUserStep3 />} />
           {/* Login Form */}
+          <Route path="/custom-login" element={<LoginForm />} />
+          <Route path="/custom-login-otp" element={<LoginFormOTP />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
