@@ -6,20 +6,10 @@ import { Button, Stack, Autocomplete, TextField, Slider, Typography, TextareaAut
 
 const RegisterUserStep3 = () => {
   const navigate = useNavigate();
-  const [houses, setHouses] = React.useState('');
-  const [years, setYears] = React.useState(0);
   const [money, setMoney] = React.useState(0);
 
   const handleNextStep = () => {
     navigate("/custom");
-  };
-
-  const handleHousesChange = (event) => {
-    setHouses(event.target.value);
-  };
-
-  const handleYearsChange = (event, newValue) => {
-    setYears(newValue);
   };
 
   const handleMoneyChange = (event) => {
@@ -48,8 +38,7 @@ const RegisterUserStep3 = () => {
         />
         <Typography gutterBottom>Number of years in hometown</Typography>
         <Slider
-          value={years}
-          onChange={handleYearsChange}
+          value="50"
           aria-labelledby="years-slider"
           valueLabelDisplay="auto"
           step={1}
