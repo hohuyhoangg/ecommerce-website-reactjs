@@ -22,7 +22,6 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
 import Badge from "@mui/material/Badge";
-import {Autocomplete, TextField} from "@mui/material";
 
 const Navbar = () => {
   const cart = useSelector((state) => state.cart);
